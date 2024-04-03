@@ -5,9 +5,7 @@
   width: auto;
   height: auto;
   overflow: hidden;
-  margin: -31px;
-  margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 6px solid rgba(0, 77, 64, 0.4);
   border-radius: 50% !important;
 }
 
@@ -34,7 +32,6 @@
   line-height: 70px;
   border-radius: 45px;
   display: inline-block;
-  margin: 4px;
 }
 
 .github {
@@ -102,16 +99,17 @@ li.logo span {
 }
 
 .container {
-  width: 95%;
+  width: 45%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-h2 {
+h4 {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .section {
-  padding-bottom: 30px;
-  padding-top: 0;
   position: relative;
 }
 
@@ -120,37 +118,10 @@ h2 {
 }
 
 #intro.section {
-  background: linear-gradient(341deg, #104b3c, #d7eae5);
+  height:100%;
+  background: linear-gradient(0deg,  #104b3c, #89b0a7);
   position: relative;
-}
-
-#intro.section .container {
   color: white;
-  font-weight: 200;
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-
-#intro.section .container *:not(span) {
-  font-weight: 300;
-  line-height: 150%;
-}
-
-#intro.section .underline {
-  border-bottom: 5px solid #24305e;
-}
-
-#intro.section .teal {
-  padding: 0 10px;
-}
-
-.overlay {
-  background-color: rgba(0, 0, 0, 0.4);
-
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
