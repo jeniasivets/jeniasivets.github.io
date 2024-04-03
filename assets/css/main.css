@@ -1,0 +1,138 @@
+:root {
+    background: linear-gradient(0deg,  #104b3c, #89b0a7);
+    background-image: url("/assets/img/back.jpeg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: 'Courier New'
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: clamp(21px, 2.3vw, 26px);
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+h4 {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-size: clamp(18px, 1.5vw, 28px);
+    width: 85%;
+}
+
+.content-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    /*width: clamp(460px, 50vw, 560px);*/
+    height: fit-content;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    width: 83%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-pic {
+  position: relative;
+  max-width:200px;
+  max-height:200px;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  /*border: 6px solid rgba(0, 77, 64, 0.4);*/
+  border: 6px solid #104b3c;
+  border-radius: 50% !important;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: auto;
+}
+
+.social {
+  margin: 0 auto;
+  width: auto;
+  text-align: inherit;
+}
+
+.icon-btn {
+  margin-left: auto;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 70px;
+  line-height: 0;
+  border-radius: 45px;
+  display: inline-block;
+
+   justify-content: center;
+   align-items: center;
+}
+
+.github {
+  color: #104b3c
+}
+
+.linkedin {
+  color: #104b3c
+}
+
+.envelope {
+  color: #104b3c
+}
+
+.telegram {
+  color: #104b3c
+}
+
+.whatsapp {
+  color: #104b3c
+}
+
+.icon-btn:hover {
+  transform: scale(1.10);
+  color: #FFFFFF;
+}
+
+.linkedin:hover {
+  background-color: #0A66C2;
+}
+
+.github:hover {
+  background-color: black;
+}
+
+.telegram:hover {
+  background-color: #0088cc;
+}
+
+.whatsapp:hover {
+  background-color: #25D366;
+}
+
+.teal {
+  background-color: #104b3c !important;
+}
