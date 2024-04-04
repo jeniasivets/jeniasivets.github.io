@@ -107,7 +107,7 @@ p {
     }
 
     .content-container {
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.3);
         /*width: 100vw;*/
         height: fit-content;
         /*padding: 15px;*/
