@@ -4,5 +4,5 @@
 
 #### Features & Tools
 * HTML & CSS
-* Typing animation using JavaScript Library `Typed.js`
+*  ~~Typing animation using JavaScript Library `Typed.js`~~
 

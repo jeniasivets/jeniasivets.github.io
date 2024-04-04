@@ -1,14 +1,16 @@
 :root {
-    background: linear-gradient(0deg,  #104b3c, #89b0a7);
-    background-image: url("/assets/img/back.jpeg");
+    background-color: rgba(16, 75, 60, 0.5);
+    background-image: url("../img/back-new-3.jpg");
     background-position: center;
     background-size: cover;
+    font-family: 'Courier New';
     color: white;
-    font-family: 'Courier New'
+    background-repeat: no-repeat;
 }
 
 body {
     height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,10 +22,6 @@ h3 {
     margin-top: 0px;
 }
 
-h4 {
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-}
-
 p {
     font-size: clamp(18px, 1.5vw, 28px);
     width: 85%;
@@ -33,7 +31,7 @@ p {
     background-color: rgba(0, 0, 0, 0.3);
     /*width: clamp(460px, 50vw, 560px);*/
     height: fit-content;
-    padding: 15px;
+    /*padding: 15px;*/
 
     display: flex;
     flex-direction: column;
@@ -43,7 +41,7 @@ p {
 
 .text-container {
     width: 83%;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,87 +50,75 @@ p {
     text-align: center;
 }
 
-.profile-pic {
-  position: relative;
-  max-width:200px;
-  max-height:200px;
-  width: auto;
-  height: auto;
-  overflow: hidden;
-  /*border: 6px solid rgba(0, 77, 64, 0.4);*/
-  border: 6px solid #104b3c;
-  border-radius: 50% !important;
+.profile-picture {
+    border-radius: 50%;
+    object-fit: cover;
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    border: 6px solid rgba(16, 75, 60, 0.5);
+    border-radius: 50% !important;
 }
 
-.profile-pic img {
-  width: 100%;
-  height: auto;
+.icon {
+    width: 30px;
+    height: auto;
 }
 
-.social {
-  margin: 0 auto;
-  width: auto;
-  text-align: inherit;
+.icon-container {
+    background-color: white;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
 }
 
-.icon-btn {
-  margin-left: auto;
-  width: 50px;
-  height: 50px;
-  border: 0;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-size: 30px;
-  line-height: 70px;
-  line-height: 0;
-  border-radius: 45px;
-  display: inline-block;
-
-   justify-content: center;
-   align-items: center;
+.icon-container-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
 }
 
-.github {
-  color: #104b3c
+@media only screen and (max-width: 600px) {
+    html {
+        height: -webkit-fill-available;
+        background-size: auto;
+        /*background-size: auto 150vh;*/
+    }
+
+    body {
+        height: -webkit-fill-available;
+    }
+
+    .profile-picture {
+        border-radius: 50%;
+        object-fit: cover;
+        max-width:200px;
+        max-height:200px;
+        width: auto;
+        height: auto;
+        border: 6px solid rgba(16, 75, 60, 0.5);
+        border-radius: 50% !important;
+    }
+
+    .content-container {
+        background-color: rgba(0, 0, 0, 0.6);
+        /*width: 100vw;*/
+        height: fit-content;
+        /*padding: 15px;*/
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-.linkedin {
-  color: #104b3c
-}
-
-.envelope {
-  color: #104b3c
-}
-
-.telegram {
-  color: #104b3c
-}
-
-.whatsapp {
-  color: #104b3c
-}
-
-.icon-btn:hover {
-  transform: scale(1.10);
-  color: #FFFFFF;
-}
-
-.linkedin:hover {
-  background-color: #0A66C2;
-}
-
-.github:hover {
-  background-color: black;
-}
-
-.telegram:hover {
-  background-color: #0088cc;
-}
-
-.whatsapp:hover {
-  background-color: #25D366;
-}
-
-.teal {
-  background-color: #104b3c !important;
+.text-fill {
+  background-color: rgba(16, 75, 60, 0.5) !important;
 }
