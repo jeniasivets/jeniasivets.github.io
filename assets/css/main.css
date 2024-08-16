@@ -77,16 +77,38 @@ h3 {
     background-color: var(--border-color);
 }
 
-@media (max-width: 600px) {
-    body {
+@media only screen and (max-width: 600px) {
+    html {
+        height: -webkit-fill-available;
         background-size: auto;
     }
 
+    body {
+        height: -webkit-fill-available;
+    }
+
     .profile-picture {
+        border-radius: 50%;
+        object-fit: cover;
         max-width: 150px; /* Size adjustment for mobile */
+        width: auto;
+        height: auto;
+        border: 6px solid rgba(16, 75, 60, 0.5);
+        border-radius: 50% !important;
     }
 
     .content-container {
         padding: 15px; /* Reduced padding for mobile */
+        background-color: rgba(0, 0, 0, 0.3);
+        height: fit-content;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+}
+
+.text-fill {
+  background-color: rgba(16, 75, 60, 0.5) !important;
 }
