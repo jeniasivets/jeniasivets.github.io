@@ -1,11 +1,11 @@
 ## Personal Web Page 🌐
-> A modern and responsive layout for showcasing your personal profile and projects, built with React.
+> A modern and responsive layout for showcasing your personal profile, built with React.
 
 ### Demo
-You can view the live version of this personal web page [https://jeniasivets.github.io](https://jeniasivets.github.io).
+You can view the live version of this personal web page at [https://jeniasivets.github.io](https://jeniasivets.github.io).
 
 ### Features & Tools
-- Built with **React** and **create-react-app** for a streamlined development experience.
+- Built with **React** for a streamlined development experience.
 - **Responsive Design**: Optimized for various screen sizes, including mobile.
 - **Customizable Components**: Easily modify styles and components.
 - **SVG Icons**: Utilizes SVG icons for crisp graphics.
