@@ -3,8 +3,8 @@
 
 #### Features
 
-- **Responsive Design** The web page is fully responsive, providing an optimal viewing experience on both desktop and mobile devices.
-- **Social Media Integration** Easily connect and display social media profiles on a page.
+- **Responsive Design**: The web page is fully responsive, providing an optimal viewing experience on both desktop and mobile devices.
+- **Social Media Integration**: Easily connect and display social media profiles on a page.
 
 #### Technologies Used
 
