@@ -3,7 +3,8 @@ function Button(props) {
     padding: props.icon && !props.text ? "0 16px" : "0 24px",
     color:"#918E9B",
     display: 'flex',  // Ensure flex display for button
-    alignItems: 'center' // Center contents vertically
+    alignItems: 'center', // Center contents vertically
+    justifyContent: 'center'
   };
 
   // let outline = props.outline ? 'btn-outline' : 'btn-solid';
