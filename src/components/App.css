@@ -108,6 +108,29 @@ a{
     background-color: #d6d3d8;
     border-radius: 0 0 10px 10px;
 }
+.sm-btn{
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 28px;
+    border-radius: 6px;
+    background-color: #918E9B;
+    color: #DCD9E1;
+    transition: filter 0.2s ease;
+}
+.sm-btn svg{
+    width: 22px;
+    height: 22px;
+    display: block;
+}
+.sm-icon-linkedin{
+    transform: scale(1.7);
+}
+.sm-btn:hover{
+    filter: brightness(1.1);
+}
 
 .hero__cta {
     margin-top: 10px;

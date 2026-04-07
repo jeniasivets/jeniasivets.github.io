@@ -5,15 +5,15 @@ function SocialMedia(){
     return(
         <div className="social-media">
             <a href="https://www.linkedin.com/in/evgeniia-sivets" className="sm-btn">
-            <LinkedInIcon />
+            <LinkedInIcon className="sm-icon sm-icon-linkedin" />
             </a>
 
            <a href="mailto:evgeniasivets@gmail.com" className="sm-btn">
-           <EmailIcon />
+           <EmailIcon className="sm-icon sm-icon-email" />
            </a>
 
             <a href="https://github.com/jeniasivets" className="sm-btn">
-            <GitHubIcon />
+            <GitHubIcon className="sm-icon sm-icon-github" />
             </a>
         </div>
     );
